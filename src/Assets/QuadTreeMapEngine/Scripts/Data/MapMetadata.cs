@@ -11,6 +11,9 @@ namespace QuadTreeMapEngine.Data
     public class MapMetadata
     {
         [XmlElement]
+        public UtmProjection UtmProjection { get; set; }
+
+        [XmlElement]
         public Double2 Position { get; set; } = new Double2();
 
         [XmlElement]
@@ -148,6 +151,15 @@ namespace QuadTreeMapEngine.Data
 
             return tiles;
         }
+    }
+
+    public class UtmProjection
+    {
+        [XmlAttribute]
+        public int Zone { get; set; }
+
+        [XmlAttribute]
+        public bool North { get; set; }
     }
 
     internal class StringWriterUtf8 : StringWriter

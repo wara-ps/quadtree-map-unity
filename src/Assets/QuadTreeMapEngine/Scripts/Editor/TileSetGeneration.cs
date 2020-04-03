@@ -33,6 +33,7 @@ namespace QuadTreeMapEngine.Editor
 
                 var metadata = new MapMetadata
                 {
+                    UtmProjection = new UtmProjection { Zone = 33, North = true },
                     Position = new Double2(600160.0, 6403336.0),
                     Rotation = new Double3(-90, 180, 0),
                     AnchorOffset = new Double2(250, 350),
