@@ -7,7 +7,7 @@ This is a sample Unity3D project to view quadtree tiled terrain models. It also 
 ## Getting started
 
 1. Clone this repository: `git clone git@github.com:wara-ps/quadtree-map-unity.git`.
-2. Download the Gränsö tileset from [here](https://warapsportalstorage.z16.web.core.windows.net/granso-quadtree-tiles-unity-bundles.zip) and unzip somewhere on your machine.
+2. Download the Gränsö tileset from [here](https://waraps-resource-archive-prod.azurewebsites.net/api/containers/terrain-model-granso/blobs/granso-quadtree-tiles-unity-bundles.zip/download) and unzip somewhere on your machine.
 3. Open the *src* folder as a project in Unity3D (tested with version 2019.3.7f).
 4. Open the sample scene *Assets/Scenes/SampleScene.unity*.
 5. Locate the *GransoWorld* object in the Hierarchy view and set the *Base Url* field to `file:///<path to tileset>`. Replace *\<path to tileset>* with the absolute path to the unzipped folder, containing the file *metadata.xml*.
